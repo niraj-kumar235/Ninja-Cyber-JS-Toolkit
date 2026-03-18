@@ -67,7 +67,7 @@ git clone https://github.com/niraj-kumar235/js-toolkit.git
 
 ## 🌐 Live Demo
 
-👉 [(Add your GitHub Pages link here)](https://niraj-kumar235.github.io/js-toolkit/)
+👉 [(https://niraj-kumar235.github.io/js-toolkit/)]
 
 ---
 
