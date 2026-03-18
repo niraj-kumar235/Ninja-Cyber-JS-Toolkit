@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ninja Cyber Toolkit</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>🚀 Ninja Cyber JS Toolkit</h1>
+
+    <div class="container">
+      <!-- Calculator -->
+      <div class="card">
+        <h2>Calculator</h2>
+        <input type="text" id="calcInput" placeholder="Enter expression" />
+        <button onclick="calculate()">Calculate</button>
+        <h3 id="calcResult"></h3>
+      </div>
+
+      <!-- KM to Miles -->
+      <div class="card">
+        <h2>KM to Miles</h2>
+        <input type="number" id="km" />
+        <button onclick="convertKM()">Convert</button>
+        <h3 id="kmResult"></h3>
+      </div>
+
+      <!-- Celsius -->
+      <div class="card">
+        <h2>Celsius to Fahrenheit</h2>
+        <input type="number" id="cel" />
+        <button onclick="convertTemp()">Convert</button>
+        <h3 id="tempResult"></h3>
+      </div>
+
+      <!-- Odd Even -->
+      <div class="card">
+        <h2>Odd / Even</h2>
+        <input type="number" id="num" />
+        <button onclick="checkOddEven()">Check</button>
+        <h3 id="oddResult"></h3>
+      </div>
+
+      <!-- Positive Negative -->
+      <div class="card">
+        <h2>Number Check</h2>
+        <input type="number" id="numCheck" />
+        <button onclick="checkNumber()">Check</button>
+        <h3 id="checkResult"></h3>
+      </div>
+
+      <!-- Random -->
+      <div class="card">
+        <h2>Random Number</h2>
+        <button onclick="randomNum()">Generate</button>
+        <h3 id="randomResult"></h3>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <br />
+      <p>🚀 Developed with ❤️ by <span class="dev">Niraj Kumar</span></p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
